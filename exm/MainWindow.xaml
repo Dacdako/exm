@@ -1,0 +1,24 @@
+﻿<Window x:Class="exm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exm"
+        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="basa" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <DataGrid Margin="0,0,0,247" x:Name="basa" AutoGenerateColumns="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" />
+                <DataGridTextColumn Header="janr" />
+                <DataGridTextColumn Header="avtor"/>
+            </DataGrid.Columns>
+           
+        </DataGrid>
+        <TextBox x:Name="iii" HorizontalAlignment="Left" Height="38" Margin="262,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" RenderTransformOrigin="0.51,0.544" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="40" Margin="519,246,0,0" VerticalAlignment="Top" Width="185" Click="Button_Click"/>
+        <Label Content="L" HorizontalAlignment="Left" Margin="49,260,0,0" VerticalAlignment="Top" Width="118"/>
+
+    </Grid>
+</Window>
